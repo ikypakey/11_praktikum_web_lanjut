@@ -12,7 +12,9 @@ use Illuminate\Auth\Events\Login;
 use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Symfony\Component\HttpFoundation\Response;
+use Facade\FlareClient\Http\Response;
+
+// use Symfony\Component\HttpFoundation\Response;
 
 class AuthController extends Controller
 {
